@@ -1,0 +1,248 @@
+{
+  "info": {
+    "_postman_id": "e00f6898-d62c-45f6-aa14-916c8cc39181",
+    "name": "JustACollection",
+    "description": "Just a collection created by me and intended for me to explore Postman.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "e8816492-fa9d-43a2-8838-b845fb6e9f33",
+      "name": "Dev2Status",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "url": "https://dev2-user.testonly.digital-me.nl/user/api/"
+      },
+      "response": [
+        {
+          "id": "bf59cbee-5792-4f44-b73b-f78fed2806c2",
+          "name": "Dev2Status - OK",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "AP-Token",
+                "value": "122"
+              }
+            ],
+            "body": {},
+            "url": "https://dev2-user.testonly.digital-me.nl/user/api/"
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Access-Control-Allow-Credentials",
+              "value": "true",
+              "name": "Access-Control-Allow-Credentials",
+              "description": "Indicates whether or not the response to the request can be exposed when the credentials flag is true. When used as part of a response to a preflight request, this indicates whether or not the actual request can be made using credentials."
+            },
+            {
+              "key": "Access-Control-Allow-Headers",
+              "value": "Cache-Control, Pragma, Origin, Authorization, Content-Type, X-Requested-With, Set-Cookie, Cookie, Accept, password",
+              "name": "Access-Control-Allow-Headers",
+              "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+            },
+            {
+              "key": "Access-Control-Allow-Methods",
+              "value": "GET, PUT, POST, OPTIONS, DELETE",
+              "name": "Access-Control-Allow-Methods",
+              "description": "Specifies the method or methods allowed when accessing the resource. This is used in response to a preflight request."
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*",
+              "name": "Access-Control-Allow-Origin",
+              "description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+            },
+            {
+              "key": "Access-Control-Expose-Headers",
+              "value": "Location",
+              "name": "Access-Control-Expose-Headers",
+              "description": "Lets a server whitelist headers that browsers are allowed to access."
+            },
+            {
+              "key": "Connection",
+              "value": "close",
+              "name": "Connection",
+              "description": "Options that are desired for the connection"
+            },
+            {
+              "key": "Content-Length",
+              "value": "137",
+              "name": "Content-Length",
+              "description": "The length of the response body in octets (8-bit bytes)"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "name": "Content-Type",
+              "description": "The mime type of this content"
+            },
+            {
+              "key": "Date",
+              "value": "Mon, 10 Sep 2018 08:58:20 GMT",
+              "name": "Date",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=15768000;includeSubDomains",
+              "name": "Strict-Transport-Security",
+              "description": "A HSTS Policy informing the HTTP client how long to cache the HTTPS only policy and whether this applies to subdomains."
+            },
+            {
+              "key": "Vary",
+              "value": "Accept-Encoding",
+              "name": "Vary",
+              "description": "Tells downstream proxies how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one from the origin server."
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff",
+              "name": "X-Content-Type-Options",
+              "description": "The only defined value, \"nosniff\", prevents Internet Explorer from MIME-sniffing a response away from the declared content-type"
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "1; mode=block",
+              "name": "X-XSS-Protection",
+              "description": "Cross-site scripting (XSS) filter"
+            },
+            {
+              "key": "tracker",
+              "value": "USR-101079",
+              "name": "tracker",
+              "description": "Custom header"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "{\"links\":{\"create\":\"https://dev2-user.testonly.digital-me.nl/user/owners\"},\"serverTime\":1536569900535,\"currentVersion\":\"1.0.43-SNAPSHOT\"}"
+        }
+      ]
+    },
+    {
+      "_postman_id": "b40a8b22-aca2-4991-b977-6d731aadf682",
+      "name": "Dev2Status Copy",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "url": "https://dev2-user.testonly.digital-me.nl/user/api/"
+      },
+      "response": [
+        {
+          "id": "16775da6-6caf-485a-8328-0b2bf7a7b320",
+          "name": "Dev2Status - OK",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "AP-Token",
+                "value": "122"
+              }
+            ],
+            "body": {},
+            "url": "https://dev2-user.testonly.digital-me.nl/user/api/"
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Access-Control-Allow-Credentials",
+              "value": "true",
+              "name": "Access-Control-Allow-Credentials",
+              "description": "Indicates whether or not the response to the request can be exposed when the credentials flag is true. When used as part of a response to a preflight request, this indicates whether or not the actual request can be made using credentials."
+            },
+            {
+              "key": "Access-Control-Allow-Headers",
+              "value": "Cache-Control, Pragma, Origin, Authorization, Content-Type, X-Requested-With, Set-Cookie, Cookie, Accept, password",
+              "name": "Access-Control-Allow-Headers",
+              "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+            },
+            {
+              "key": "Access-Control-Allow-Methods",
+              "value": "GET, PUT, POST, OPTIONS, DELETE",
+              "name": "Access-Control-Allow-Methods",
+              "description": "Specifies the method or methods allowed when accessing the resource. This is used in response to a preflight request."
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*",
+              "name": "Access-Control-Allow-Origin",
+              "description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+            },
+            {
+              "key": "Access-Control-Expose-Headers",
+              "value": "Location",
+              "name": "Access-Control-Expose-Headers",
+              "description": "Lets a server whitelist headers that browsers are allowed to access."
+            },
+            {
+              "key": "Connection",
+              "value": "close",
+              "name": "Connection",
+              "description": "Options that are desired for the connection"
+            },
+            {
+              "key": "Content-Length",
+              "value": "137",
+              "name": "Content-Length",
+              "description": "The length of the response body in octets (8-bit bytes)"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "name": "Content-Type",
+              "description": "The mime type of this content"
+            },
+            {
+              "key": "Date",
+              "value": "Mon, 10 Sep 2018 08:58:20 GMT",
+              "name": "Date",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=15768000;includeSubDomains",
+              "name": "Strict-Transport-Security",
+              "description": "A HSTS Policy informing the HTTP client how long to cache the HTTPS only policy and whether this applies to subdomains."
+            },
+            {
+              "key": "Vary",
+              "value": "Accept-Encoding",
+              "name": "Vary",
+              "description": "Tells downstream proxies how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one from the origin server."
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff",
+              "name": "X-Content-Type-Options",
+              "description": "The only defined value, \"nosniff\", prevents Internet Explorer from MIME-sniffing a response away from the declared content-type"
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "1; mode=block",
+              "name": "X-XSS-Protection",
+              "description": "Cross-site scripting (XSS) filter"
+            },
+            {
+              "key": "tracker",
+              "value": "USR-101079",
+              "name": "tracker",
+              "description": "Custom header"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "{\"links\":{\"create\":\"https://dev2-user.testonly.digital-me.nl/user/owners\"},\"serverTime\":1536569900535,\"currentVersion\":\"1.0.43-SNAPSHOT\"}"
+        }
+      ]
+    }
+  ]
+}
