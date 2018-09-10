@@ -132,7 +132,7 @@
         "method": "GET",
         "header": [],
         "body": {},
-        "url": "https://dev2-user.testonly.digital-me.nl/user/api/"
+        "url": "https://dev1-user.testonly.digital-me.nl/user/api/"
       },
       "response": [
         {
