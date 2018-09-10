@@ -127,7 +127,7 @@
     },
     {
       "_postman_id": "b40a8b22-aca2-4991-b977-6d731aadf682",
-      "name": "Dev2Status Copy",
+      "name": "Dev1Status",
       "request": {
         "method": "GET",
         "header": [],
